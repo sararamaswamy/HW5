@@ -106,6 +106,7 @@ def get_tweets_from_user(phrase):
 
 three_tweets = get_tweets_from_user(phrase) # try with your own username, too! or other umich usernames!
 print(three_tweets)
+
 	# for tweet in twitter_results:
 	# 	tweet_texts.append(tweet["text"])
 	# 	created_at.append(tweet["created_at"])
