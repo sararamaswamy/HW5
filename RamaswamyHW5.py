@@ -63,7 +63,7 @@ auth.set_access_token(access_token, access_token_secret)
 # Set up library to grab stuff from twitter with your authentication, and return it in a JSON format 
 api = tweepy.API(auth, parser=tweepy.parsers.JSONParser())
 
-phrase = input("Please type a phrase of choice: ")
+phrase = input("Please type a phrase of choice: ") ## uses the python input function, satisfies hw requirement
 
 # start out cache
 CACHE_FNAME = "cached_data_socialmedia.json"
